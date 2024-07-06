@@ -1,0 +1,39 @@
+.header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.logoimg {
+  width: 100px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-card {
+  background-color: #d3d3d3;
+  width: 200px;
+  height: 300px;
+}
+
+.res-img {
+  width: 190px;
+  height: 150px;
+  padding: 5px;
+}
+
+.res-info {
+  padding: 5px;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */

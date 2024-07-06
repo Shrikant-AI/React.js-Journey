@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimg{
+    /* height: 100px; */
+    width: 100px;
+}
+
+.nav-items>ul{
+    display: flex;
+    list-style-type:none;
+}
+
+.nav-items>ul>li{
+    margin: 10px;
+    padding: 10px;
+     
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-card{
+    background-color:lightgray;
+    width: 200px;
+    height: 300px;
+
+}
+.res-img{
+    padding: 5px;
+    width:190px;
+    height: 150px;
+}
+.res-info{
+    padding: 5px;
+}
