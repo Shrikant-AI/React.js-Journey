@@ -54,9 +54,6 @@ const RestaurantCard=(props)=>{
             <p>{resData.data.avgRating}</p>
             <p>₹{resData.data.costForTwo/100} FOR TWO</p>
             <p>{resData.data.deliveryTime} minutes</p>
-        
-        
-   
 
 
         </div>
@@ -2111,7 +2108,7 @@ const Body =()=>{
         <div className="body">
             <div className="search"></div>
             <div className="res-container">
-                <RestaurantCard resData={resList[0]} />
+                {/* <RestaurantCard resData={resList[0]} />
                 <RestaurantCard resData={resList[1]} />
                 <RestaurantCard resData={resList[2]} />
                 <RestaurantCard resData={resList[3]} />
@@ -2119,7 +2116,12 @@ const Body =()=>{
                 <RestaurantCard resData={resList[5]} />
                 <RestaurantCard resData={resList[6]} />
                 <RestaurantCard resData={resList[7]} />
-                <RestaurantCard resData={resList[8]} />
+                <RestaurantCard resData={resList[8]} /> */}
+
+
+                {resList.map((restaurant) => (
+          <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+        ))}
                 
             </div>
         </div>
