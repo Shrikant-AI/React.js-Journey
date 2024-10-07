@@ -4,7 +4,7 @@ function App(){
 const [color , setColor] = useState("olive")
 
   return(
-    <div className=" w-full h-screen duration-200"
+    <div className=" w-full h-screen duration-1000"
       style={{backgroundColor:color}}>
       <div className="fixed bottom-12 flex justify-center 
       inset-x-0 px-2">
