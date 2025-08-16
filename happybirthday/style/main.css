@@ -230,7 +230,7 @@ eight svg:nth-child(1) {
   height: 95vh; /* Confines the section */
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+  /* box-shadow: 0px 6px 15px rgba(0,0,0,0.15); */
   text-align: center;
   overflow: hidden; /* Ensure container itself doesn't overflow */
   display: flex;
